@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './components/navbar'
+import Greeting from './components/greeting'
 import './App.css';
 
 function App() {
@@ -7,9 +8,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <header className="App-header">
-        <p>
-          Hello World
-        </p>
+        <Greeting />
       </header>
     </div>
   );

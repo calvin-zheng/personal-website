@@ -1,0 +1,33 @@
+#intro {
+  color: #77FFDD;
+  font-size: 20px;
+  display: inline;
+  padding-bottom: 0;
+  text-align: left;
+  margin: 0 0 0 0;
+  position: relative;
+  left: 5px;
+}
+
+#name {
+  color: #AFCEF6;
+  display: inline;
+  margin: 0 0 0 0;
+  text-align: left;
+  font-size: 96px;
+}
+
+.brief-intro {
+  font-size: 20px;
+  width: 753px;
+  position: relative;
+  left: 5px;
+  text-align: justify;
+  color: #BBCBDA;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
