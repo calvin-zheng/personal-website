@@ -1,10 +1,11 @@
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: #121A26;
+  background-color: #19448A;
   -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .nav-items {
@@ -35,7 +36,7 @@ li {
 
 li a {
   display: block;
-  color: #77FFDD;
+  color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -43,17 +44,17 @@ li a {
 }
 
 li a:hover {
-  color: white;
+  color: #79E8F6;
 }
 
 #resume {
   outline: solid;
-  outline-color: #77FFDD;
+  outline-color: white;
 }
 
 #resume:hover {
   outline: solid;
-  outline-color: white;
+  outline-color: #79E8F6;
 }
 
 body{

@@ -14,7 +14,8 @@
 }
 
 body {
-  background-color: #121A26;
+  background: linear-gradient(#19448A, #3375AA);
+  font-family: 'Hero New', sans-serif;
 }
 
 .App-header {
@@ -32,6 +33,11 @@ body {
 .App-link {
   color: #61dafb;
 }
+
+p {
+  font-size: 20px;
+}
+
 
 /*@keyframes App-logo-spin {*/
 /*  from {*/
