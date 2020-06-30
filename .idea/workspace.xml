@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e70456-a211-4929-8f8b-3a7fb40ecaed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/headshot.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/experience.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/experience.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about-me.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-me.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about-me.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-me.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/c-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/c-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/greeting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/greeting.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/greeting.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/greeting.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +84,7 @@
       <workItem from="1591552860253" duration="4508000" />
       <workItem from="1592405556620" duration="2182000" />
       <workItem from="1592857543700" duration="128000" />
-      <workItem from="1593461949281" duration="4576000" />
+      <workItem from="1593461949281" duration="8680000" />
     </task>
     <servers />
   </component>

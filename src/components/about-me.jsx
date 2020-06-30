@@ -13,7 +13,7 @@ class AboutMe extends Component {
 
                         <p>This summer, I am participating in an engineering co-op with Toyota North America,
                             focusing on developing new solutions for internal tools for virtual meetings and also
-                            working on digitally optimize different parts of their supply chain process. </p>
+                            working to digitally optimize different parts of their supply chain process. </p>
 
                         <p>Recently, I have been working with the following technologies:</p>
                     </div>

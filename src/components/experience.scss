@@ -1,0 +1,51 @@
+.experience {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 753px;
+}
+
+h1 {
+  display: inline;
+  color: #AFCEF6;
+  border-bottom-style: solid;
+  border-bottom-color: #AFCEF6;
+}
+
+.event-title {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+.time{
+  font-style: italic;
+  //position: relative;
+  //  //left: 160px;
+  margin-left: auto;
+  margin-rigth: 0px;
+}
+
+.event-box{
+  align-self: center;
+  margin: 0px auto;
+  font-size: 18px;
+  color: #BBCBDA;
+  border-style: solid;
+  border-color: #BBCBDA;
+  border-radius: 20px;
+  border-width: thin;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 713px;
+  margin-bottom: 20px;
+}
+
+.company {
+  margin-top: 0px;
+  color: #79E8F6;
+}
