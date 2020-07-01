@@ -24,7 +24,7 @@ class Greeting extends Component {
             config = Object.assign(config, {
                 onParticleUpdate: (ctx, particle) => {
                     ctx.beginPath();
-                    ctx.rect(
+                    ctx.circle(
                         particle.p.x,
                         particle.p.y,
                         particle.radius * 2,
