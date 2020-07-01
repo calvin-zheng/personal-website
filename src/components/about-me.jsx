@@ -28,7 +28,7 @@ class AboutMe extends Component {
                             <p>Angular</p>
                         </div>
                     </div>
-                    <img src={headshot} className="headshot" alt="Profile Picture"/>
+                    <img src={headshot} className="headshot" alt="Profile"/>
                 </div>
             </div>
             </Fade>
