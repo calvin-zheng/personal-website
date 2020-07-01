@@ -9,6 +9,8 @@
   color: #BBCBDA;
 }
 
+
+
 .about-me { /* Flex container */
   display: flex;
   flex-direction: column;
@@ -32,3 +34,14 @@
   border-color: #61dafb;
 }
 
+.tech-container {
+  grid-template-columns: 100px 100px 100px;
+  display: inline-grid;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.tech-container p {
+  font-size: 14px;
+  text-align: center;
+}

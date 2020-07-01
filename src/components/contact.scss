@@ -1,0 +1,36 @@
+.contact-me {
+  margin: 0px auto;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 753px;
+  min-height: 70vh;
+}
+
+.contact-me h1 {
+  border-bottom: none;
+  align-self: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.contact-me p {
+  text-align: center;
+  color: #BBCBDA;
+}
+
+.contact-me a {
+  margin-top: 50px;
+  align-self: center;
+  color: #79E8F6;
+  border-style: solid;
+  border-color: #79E8F6;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact-me a:hover {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}

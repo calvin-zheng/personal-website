@@ -1,0 +1,29 @@
+.projects {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 753px;
+}
+
+.projects-container {
+  display: inline-grid;
+  grid-template-columns: 377px 377px;
+  column-gap: 10px;
+  row-gap: 10px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.project-box {
+  color: #BBCBDA;
+  border-style: solid;
+  border-color: #BBCBDA;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  border-width: thin;
+}

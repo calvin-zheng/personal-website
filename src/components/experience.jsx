@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import './experience.scss';
+import Fade from 'react-reveal';
 
 class Experience extends Component{
     render() {
         return (
             <div className="experience">
+                <Fade bottom>
                 <h1>Experience</h1>
                 <div className="event-box">
                     <div className="event-title">
@@ -48,6 +50,7 @@ class Experience extends Component{
                         $18,000 in sponsorship and hosted an event with 250+ participants. Currently,
                         I am tasked with helping make the logistics for MPowered’s events run more smoothly.</p>
                 </div>
+                </Fade>
             </div>
         );
     }
