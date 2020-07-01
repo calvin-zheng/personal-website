@@ -7,10 +7,6 @@
   pointer-events: none;
 }
 
-html {
-  overflow: hidden;
-  height: 100%;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,7 +19,9 @@ body {
   font-family: 'Hero New', sans-serif;
   height: 100%;
   overflow: auto;
+  overscroll-behavior: none;
 }
+
 
 .App-header {
   /*background-color: #282c34;*/
