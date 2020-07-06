@@ -34,3 +34,20 @@
   color: #FFFFFF;
   border-color: #FFFFFF;
 }
+
+@media only screen and (max-width: 500px){
+  .contact-me {
+    width: 80%;
+  }
+  .contact-me h1 {
+    font-size: 25px;
+  }
+
+  .contact-me p {
+    font-size: 15px;
+  }
+
+  .contact-me a{
+    font-size: 15px;
+  }
+}

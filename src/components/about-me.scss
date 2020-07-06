@@ -45,3 +45,55 @@
   font-size: 14px;
   text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+  .about-me {
+    width: 80%;
+    align-items: center;
+  }
+
+  .headshot {
+    margin-left: unset;
+    margin-bottom: 20px;
+  }
+
+  .about-me-flex-2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about-me-text {
+    margin: 0 auto;
+  }
+
+  .about-me h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .about-me-text p{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: unset;
+  }
+
+  .tech-container {
+    margin: 0 auto;
+    grid-template-columns: 23% 23% 23%;
+    width: 80%;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .tech-container p{
+    font-size: 12px;
+    justify-self: center;
+    margin: 0;
+  }
+
+
+}

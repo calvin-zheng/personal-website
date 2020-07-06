@@ -30,4 +30,26 @@
   display: flex;
   flex-direction: column;
   align-self: center;
+  margin: 0px auto;
+}
+
+@media only screen and (max-width: 500px) {
+  #intro {
+    font-size: 15px;
+    width: 80%;
+    margin: 0px auto;
+  }
+  #name {
+    font-size: 2.5em;
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  .brief-intro {
+    font-size: 15px;
+    align-self: center;
+    width: 80%;
+    text-align: justify;
+  }
+
 }

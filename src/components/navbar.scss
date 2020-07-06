@@ -9,15 +9,16 @@
 }
 
 .nav-items {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   //background-color: #3E5C76;
   align-content: center;
   width: 100%;
   border: none;
+  justify-content: space-between;
 }
 
 #logo {
-  float: left;
   width: 90px;
   height: 90px;
 }
@@ -40,7 +41,7 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 20px;
 }
 
 li a:hover {
@@ -61,4 +62,31 @@ li a:hover {
 
 body{
   background-color: #3E5C76;
+}
+
+@media only screen and (max-width: 500px)
+{
+  .navbar {
+    width: 100%;
+  }
+
+  #logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  li a{
+    font-size: 2.25vw;
+    padding: 5px;
+  }
+
+  ul {
+    flex-basis: 80%;
+  }
+
+  .nav-items {
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }

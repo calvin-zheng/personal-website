@@ -27,3 +27,26 @@ h3 {
   border-radius: 20px;
   border-width: thin;
 }
+
+@media only screen and (max-width: 500px) {
+  .projects {
+    width: 80%;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-box h3 {
+    font-size: 15px;
+  }
+
+  .project-box p {
+    font-size: 15px;
+  }
+
+  .project-box {
+    margin-bottom: 20px;
+  }
+}

@@ -49,3 +49,39 @@ h3 {
   margin-top: 0px;
   color: #79E8F6;
 }
+
+@media only screen and (max-width: 500px) {
+  .experience {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .event-title {
+    flex-direction: column;
+  }
+
+  .event-box {
+    width: 90%;
+  }
+
+  .event-box h3 {
+    font-size: 15px;
+  }
+
+  .time {
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .company {
+    font-size: 15px;
+  }
+
+  .event-box p{
+    font-size: 15px;
+  }
+}
